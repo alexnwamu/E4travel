@@ -36,7 +36,7 @@ display: flex;
 .navbar li:hover{
   background-color: white;
   border-radius: 15px;
-  color: green;
+  color: rgb(252, 119, 3);
 }
 .link{
     text-decoration: none;
@@ -44,10 +44,10 @@ display: flex;
     padding: 10px;
     font-size: 14pt;
     font-weight: 500;
-    color: green;
+    color: rgb(252, 119, 3);
 }
 .company-name{
-    color: green;
+    color: rgb(252, 119, 3);
     margin: 10px;
     font-size: 1.5rem;
 }
@@ -115,14 +115,14 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-image: url('/images/travel2.jfif');
+background-image: url('/images/travel2.jpg');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 
 }
 .traveltext{
-color: green;
+color: rgb(252, 119, 3);
 font-family: 'Comfortaa', cursive;
 text-align: center;
 text-decoration: none;
@@ -131,7 +131,7 @@ font-size: 50pt;
 .consult{
     padding: 10px 32px;
     margin: 10px;
-    background-color: lightgreen;
+    background-color: rgb(252, 144, 3);
     color: white;
    font-size: 25px;
    border-radius: 15px;
@@ -141,7 +141,7 @@ font-size: 50pt;
     margin: 10px;
     border-radius: 15px;
     background-color: white;
-    color: lightgreen;
+    color: rgb(252, 144, 3);
     font-size: 25px;
 
 }
