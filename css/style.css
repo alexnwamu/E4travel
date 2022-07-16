@@ -352,7 +352,7 @@ display: flex;
   }
   
   footer{
-background-color: gray;
+background-color: var(--purple);
 
     width: 100%;
     
