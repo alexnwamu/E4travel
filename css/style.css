@@ -24,6 +24,25 @@ display: flex;
    /* background when scroll is in the top */
   transition: background .5s; /* control how smooth the background changes */
 }
+@media(hover:hover){
+ .consult:hover{
+    padding: 10px 32px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: var(--lightorange);
+    font-size: 20px;
+
+} 
+.navbar li:hover{
+  background-color: white;
+  border-radius: 15px;
+  color: var(--orange);
+}
+.button input[type="submit"]:hover{
+  background: #5029bc;
+}
+}
 .logo{
     width:99.48px;
   height: 50px;
@@ -42,11 +61,7 @@ display: flex;
 
     list-style: none;
 }
-.navbar li:hover{
-  background-color: white;
-  border-radius: 15px;
-  color: var(--orange);
-}
+
 .link{
     text-decoration: none;
     margin: 10px;
@@ -142,15 +157,7 @@ font-size: 50pt;
    border-radius: 15px;
    text-decoration: none;
 }
-.consult:hover{
-    padding: 10px 32px;
-    margin: 10px;
-    border-radius: 15px;
-    background-color: white;
-    color: var(--lightorange);
-    font-size: 20px;
 
-}
 
 .services{
 height: auto;
@@ -302,9 +309,7 @@ display: flex;
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .button input[type="submit"]:hover{
-    background: #5029bc;
-  }
+
   
   @media (max-width: 950px) {
     .contac{
